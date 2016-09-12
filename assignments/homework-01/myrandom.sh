@@ -1,11 +1,6 @@
 #!/bin/bash
-
-wrods=/usr/share/dict/words
-n=$(cat words | wc ¨Cl)
-while true
-do
-   rnd=$( date '+%N' | sed 's/^[0]*//' )
-   lnum=$(( rnd % n + 1 ))
-   word=$( awk -v lnum=$lnum 'NR==lnum { print }' "$words" )
-   echo $lnum $word
-done
+WORDFILE=/usr/share/dict/words
+RANDOM=$$;
+lines=$(cat $WORDFILE  | wc -l);
+rnum=$((RANDOM*RANDOM%$lines+1));
+sed -n "$rnum p" $WORDFILE;
