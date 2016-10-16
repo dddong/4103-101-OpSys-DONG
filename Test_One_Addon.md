@@ -3,26 +3,10 @@
 
       Term          |        Defination               |      Examples              |
 | ----------------- |:-------------------------------:|  -------------------------:|
-|   Multi-tasking   |  the simultaneous execution of  |  listening music when we   |
-|                   |  more than one program or task  |  reading news online.      |
-|                   |  by a single computer processor.|                            |
-|                   |                                 |                            |
-| Multi-programming |  Multiprogramming is a 		  |  upgrade yahoo messenger   |
-                       rudimentary form of parallel      and msnmessenger at the   
-					   processing in which several 	     same time.                
-					   programs are run at the same    	                           
-					   time on a uniprocessor.                                     
-			                                                                       
-| Multi-processing  |  Multiprocessing is the		  |  process two Microsoft     |
-|                   |  coordinated processing of 	  |  word file at the same     |
-|					|  programs by more than one 	  |  time.                     |
-|					|  computer processor.            |                            |
-|					|                                 |                            |
-|   Multi-threaded  |  the ability of a central 	  |  database server that      |
-|                   |  processing unit or a 		  |  listens for and process   |
-|					|  single core in a multi-core 	  |  numerous client request.  |
-|					|  processor to execute multiple  |                            |
-|					|  processes or thread.			  |					           |
+|   Multi-tasking   |  the simultaneous execution of more than one program or task by a single computer processor.  |  listening music when we reading news online.  |
+| Multi-programming |  Multiprogramming is a rudimentary form of parallel programs are run at the same time on a uniprocessor.   |  upgrade yahoo messenger and msnmessenger at the same time. |                            			                                                                       
+| Multi-processing  |  Multiprocessing is the coordinated processing of	programs by more than one computer processor.	  |  process two Microsoft word file at the same time.    |
+|   Multi-threaded  |  the ability of a central processing unit or a single core in a multi-core processor to execute multiple processes or thread.  |  database server that listens for and process numerous client request.   |
 
 
 
