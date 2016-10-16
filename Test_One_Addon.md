@@ -8,11 +8,11 @@
 |                   |  by a single computer processor.|                            |
 |                   |                                 |                            |
 | Multi-programming |  Multiprogramming is a 		  |  upgrade yahoo messenger   |
-|                      rudimentary form of parallel      and msnmessenger at the   
-|					   processing in which several 	     same time.                |
-|					   programs are run at the same    	                           |
-|					   time on a uniprocessor.                                     |
-|			                                                                       |
+                       rudimentary form of parallel      and msnmessenger at the   
+					   processing in which several 	     same time.                
+					   programs are run at the same    	                           
+					   time on a uniprocessor.                                     
+			                                                                       
 | Multi-processing  |  Multiprocessing is the		  |  process two Microsoft     |
 |                   |  coordinated processing of 	  |  word file at the same     |
 |					|  programs by more than one 	  |  time.                     |
