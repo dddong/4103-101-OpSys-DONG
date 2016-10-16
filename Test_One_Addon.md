@@ -1,31 +1,31 @@
 # Multi*
 
----------------------  -------------------------------  --------------------------
-      Term                   Defination                     Examples            
----------------------  -------------------------------  --------------------------
-   Multi-tasking       the simultaneous execution of    listening music when we 
-                       more than one program or task    reading news online.
-                       by a single computer processor.
-                    
- Multi-programming     Multiprogramming is a 			upgrade yahoo messenger 
-                       rudimentary form of parallel 	and msnmessenger at the 
-					   processing in which several 		same time.
-					   programs are run at the same 	
-					   time on a uniprocessor.
-					  
- Multi-processing      Multiprocessing is the			process two Microsoft 
-                       coordinated processing of 		word file at the same 
-					   programs by more than one 		time.
-					   computer processor.
-					  
-   Multi-threaded      the ability of a central 		database server that 
-                       processing unit or a 			listens for and process 
-					   single core in a multi-core 		numerous client request.
-					   processor to execute multiple 	
-					   processes or thread.				
+
+      Term          |        Defination               |      Examples              |
+| ----------------- |:-------------------------------:|  -------------------------:|
+|   Multi-tasking   |  the simultaneous execution of  |  listening music when we   |
+|                   |  more than one program or task  |  reading news online.      |
+|                   |  by a single computer processor.|                            |
+|                   |                                 |                            |
+| Multi-programming |  Multiprogramming is a 		  |  upgrade yahoo messenger   |
+|                   |  rudimentary form of parallel   |  and msnmessenger at the   |
+|					|  processing in which several 	  |  same time.                |
+|					|  programs are run at the same   |	                           |
+|					|  time on a uniprocessor.        |                            |
+|			                                          |                            |
+| Multi-processing  |  Multiprocessing is the		  |  process two Microsoft     |
+|                   |  coordinated processing of 	  |  word file at the same     |
+|					|  programs by more than one 	  |  time.                     |
+|					|  computer processor.            |                            |
+|					|                                 |                            |
+|   Multi-threaded  |  the ability of a central 	  |  database server that      |
+|                   |  processing unit or a 		  |  listens for and process   |
+|					|  single core in a multi-core 	  |  numerous client request.  |
+|					|  processor to execute multiple  |                            |
+|					|  processes or thread.			  |					           |
 
 
-					   
+
 # Review Questions From Chapters 3
 
 1. What is an instruction trace?
@@ -40,14 +40,16 @@
   * Initialization of a batch job.
   
 3. What does it mean to preempt a process?
-   It means context switches.
+  
+  It means context switches.
   
 4. What is swapping and what is its purpose?
   * involves moving part of all of a process from main memory to disk
   * Its purpose is to access data being stored in hard disk and to bring it into the RAM so that it can be used by the application program.
   
 5. Why does Figure 3.9b have two blocked states?
-   There are two independent concepts: 
+  
+  There are two independent concepts: 
      * Whether a process is waiting on an event
 	 * Whether a process has been swapped out of main memory
 
@@ -65,12 +67,14 @@
   * Process control information
   
 8. Why are two modes (user and kernel) needed?
-   The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This protect the operating 
-   system from damage or alteration. In Kernel mode, the operating system does not have these restrictions, so it can perform its tasks.
+  
+  The user mode has restrictions on the instructions that can be executed and the memory areas that can be accessed. This protect the operating 
+  system from damage or alteration. In Kernel mode, the operating system does not have these restrictions, so it can perform its tasks.
   
 9. What is the difference between an interrupt and a trap?
-   Interrupt: Due to some sort of event that is external to and independent of the currently running process.
-   Trap: An error or exception condition generated within the currently running process.
+  
+  Interrupt: Due to some sort of event that is external to and independent of the currently running process.
+  Trap: An error or exception condition generated within the currently running process.
   
 10. Give three examples of an interrupt.
   * clock interrupt
@@ -78,8 +82,9 @@
   * memory fault
 
 11. What is the difference between a mode switch and a process switch?
-   Process switch is switch the process state between the status like read, blocked, suspend.
-   Mode switch is the switch the process privilege between the mode like user mode, Kernel model.
+  
+  Process switch is switch the process state between the status like read, blocked, suspend.
+  Mode switch is the switch the process privilege between the mode like user mode, Kernel model.
   
 
 
