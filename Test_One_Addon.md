@@ -2,7 +2,7 @@
 
 
       Term          |        Defination               |      Examples              |
-| ----------------- |:-------------------------------:|  -------------------------:|
+| ----------------- |:------------------------------- |:-------------------------- |
 |   Multi-tasking   | The simultaneous execution of more than one program or task by a single computer processor. | listening music when we reading news online. 
 | Multi-programming | Multiprogramming is a rudimentary form of parallel programs are run at the same time on a uniprocessor. | upgrade yahoo messenger and msnmessenger at the same time.                            			                                                                       
 | Multi-processing  | Multiprocessing is the coordinated processing of	programs by more than one computer processor. | process two Microsoft word file at the same time. 
