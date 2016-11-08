@@ -19,6 +19,8 @@ numPhilosophers = 4
 # Philosophers are threads while forks are locks.
 philosophers = []
 forks = []
+#waiter allows one philosopher eat at one time
+Arbitrator = threading.Lock()
 
 class Philosopher(threading.Thread):
     def __init__(self, index):
@@ -31,15 +33,14 @@ class Philosopher(threading.Thread):
         rightForkIndex = (self.index - 1) % numPhilosophers
         forkPair = ForkPair(leftForkIndex, rightForkIndex)
 
-        sema = threading.Semaphore(1)
+        sema = threading.Semaphore(4)
         while True:
             sema.acquire()
-
-            forkPair.pickUp()
+            with Arbitrator:
+                forkPair.pickUp()
             print("Philosopher", self.index, "eats.")
             time.sleep(0.3)
             forkPair.putDown()
-
             sema.release()
 
 class ForkPair:
@@ -69,7 +70,6 @@ if __name__ == "__main__":
     # All philosophers start eating
     for philosopher in philosophers:
         philosopher.start()
-        time.sleep(1)
 
     # Allow CTRL + C to exit the program
     try:
