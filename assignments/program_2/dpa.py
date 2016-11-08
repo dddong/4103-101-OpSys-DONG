@@ -36,6 +36,7 @@ class Philosopher(threading.Thread):
         sema = threading.Semaphore(4)
         while True:
             sema.acquire()
+            self.index = random.randrange(4)
             with Arbitrator:
                 forkPair.pickUp()
             print("Philosopher", self.index, "eats.")
